@@ -27,8 +27,6 @@
 * {
   color: rgb(23, 23, 23);
   font-family: "Muli", sans-serif;
-  /* background-color: rgb(23, 23, 23); */
-  /* background-color: rgb(13, 0, 55); */
 }
 
 body {
@@ -37,21 +35,57 @@ body {
   font-weight: 300;
 }
 
-.wrapper {
-  font-weight: 400;
-  font-size: 2rem;
-  justify-content: center;
-  margin: 0 12rem;
-  margin-top: 5rem;
+.nav-to-top {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
 }
 
-#nav-right {
+#to-the-top {
+  font-size: 1.5rem;
+  font-family: "Libre Barcode 39 Text", cursive;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: rgb(190, 0, 35);
+}
+
+#to-the-top:hover {
+  color: rgb(253, 0, 109);
+  transition: .5s;
+  -webkit-transition: .5;
+}
+
+.wrapper {
+  opacity: 0.5;
+  font-weight: 400;
+  font-size: 2rem;
+  width: 100%;
+  border-radius: 0.2rem;
+  position: fixed;
+  top: 0;
+}
+
+.wrapper:hover {
+  opacity: 1;
+  transition: .5s;
+  -webkit-transition: .5s;
+}
+
+#nav {
+  background-color: rgb(99, 99, 99);
+  width: 60%;
   list-style: none;
   display: flex;
   justify-content: space-around;
+  margin: auto;
+  padding: 0 0 0.5rem 0;
+  border-radius: 0.3rem;
+  -webkit-filter: blur(0.3px);
 }
 
-#nav-right li a {
+#nav li a {
+  color: rgb(250, 250, 250);
   font-family: "Libre Barcode 39 Text", cursive;
   text-decoration: none;
 }
@@ -64,8 +98,8 @@ body {
   font-family: "Permanent Marker";
   font-weight: 300;
   font-size: 8rem;
-  margin: 5rem 0 0 0;
   color: rgb(190, 0, 35);
+  padding-top: 2rem;
   text-align: center;
 }
 
@@ -81,7 +115,8 @@ body {
 
 #header-title:nth-child(1):hover {
   color: rgb(253, 0, 109);
-  -webkit-transition: .1s;
+  transition: 1s;
+  -webkit-transition: 1s;
 }
 
 #header-title-dev {
@@ -91,6 +126,7 @@ body {
 
 #back-end-dev-text {
   font-weight: 100;
+  text-transform: uppercase;
   width: 23rem;
   color: rgb(250, 250, 250);
   background-color: rgb(50, 50, 50);
@@ -100,14 +136,9 @@ body {
   text-align: center;
 }
 
-.body {
-}
-/* h2 {
-  margin-left: 2rem;
-} */
-
 .about {
-  margin: 7rem 3rem;
+  margin: 3.5rem 3rem 7rem 3rem;
+  padding-top: 1rem;
 }
 
 #about-text {
@@ -115,7 +146,7 @@ body {
 }
 
 #about-introduce {
-  margin: 0 10rem;
+  margin: 0rem 10rem 1rem 10rem;
 }
 
 #theIronYard {
@@ -125,7 +156,8 @@ body {
 }
 
 #theIronYard:hover {
-  color: rgb(255, 0, 89);
+  color: rgb(250, 0, 89);
+  transition: .1s;
   -webkit-transition: .1s;
 }
 
@@ -134,16 +166,17 @@ body {
   color: rgb(250, 250, 250);
   background-color: rgb(172, 0, 37);
   width: fit-content;
-  border: .1rem solid rgb(172, 0, 37);
-  border-radius: .5rem;
+  border: 0.1rem solid rgb(172, 0, 37);
+  border-radius: 0.5rem;
   margin-left: 10rem;
-  padding: .2rem .5rem;
+  padding: 0.2rem 0.5rem;
   text-decoration: none;
 }
 
 #about-contact-button:hover {
   color: rgb(172, 0, 37);
   background-color: rgb(250, 250, 250);
+  transition: .1s;
   -webkit-transition: .1s;
 }
 
@@ -151,6 +184,7 @@ body {
   background-color: rgb(50, 50, 50);
   color: rgb(250, 250, 250);
   margin: 7rem 0;
+  padding-top: 1rem;
 }
 
 #portfolio-text {
@@ -172,6 +206,7 @@ body {
 
 .passions-item:hover {
   color: rgb(172, 0, 37);
+  transition: .1s;
   -webkit-transition: .1s;
 }
 
@@ -188,10 +223,109 @@ body {
 
 .resume {
   margin: 7rem 3rem;
+  padding-top: 3rem;
 }
 
 #resume-text {
+  text-transform: uppercase;
 }
+
+.resume-section {
+  margin: 0rem 10rem;
+}
+
+#resume-pdf {
+  text-align: center;
+}
+
+#resume-pdf-text {
+  background-color: rgb(172, 0, 37);
+  color: rgb(250, 250, 250);
+  border: .1rem solid rgb(172, 0, 37);
+  border-radius: .4rem;
+  margin: 0 auto;
+  padding: .2rem .5rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#resume-pdf-text:hover {
+  color: rgb(172, 0, 37);
+  background-color: rgb(250, 250, 250);
+  transition: .1s;
+  -webkit-transition: .1s;
+}
+
+#resume-education-text {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.resume-education-list {
+  display: flex;
+}
+
+.resume-education-list-date {
+  width: 15rem;
+}
+
+#resume-skills-text {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#resume-work-text {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.resume-work-group {
+  display: flex;
+}
+
+.resume-work-date {
+  width: 15rem;
+}
+
+.resume-work-text-list {
+
+}
+
+.resume-work-text-list ul{
+  margin:  0;
+  padding: 1rem;
+}
+
+
+
+
+
+#resume-volunteer-text {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+
+
+.resume-skills-logo{
+  height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .contact {
   font-size: 1.2rem;
@@ -223,11 +357,13 @@ body {
 
 #contact-email-link {
   color: rgb(250, 250, 250);
+  margin-bottom: 1rem;
   text-decoration: none;
 }
 
 #contact-email-link:hover {
-  color: rgb(72, 228, 255);
+  color: rgb(72, 228, 250);
+  transition: .1s;
   -webkit-transition: .1s;
 }
 
@@ -253,7 +389,8 @@ body {
 }
 
 #contact-webApp-icon:hover {
-  color: rgb(72, 228, 255);
+  color: rgb(72, 228, 250);
+  transition: .1s;
   -webkit-transition: .1s;
 }
 
@@ -269,6 +406,7 @@ body {
 
 #instagram:hover {
   color: rgb(253, 0, 109);
+  transition: .1s;
   -webkit-transition: .1s;
 }
 
