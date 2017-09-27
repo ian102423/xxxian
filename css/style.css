@@ -24,8 +24,14 @@
   src: local("Muli"), url("https://fonts.googleapis.com/css?family=Muli");
 }
 
+@font-face {
+  font-family: "Lora", serif;
+  font-weight: 400;
+  src: local("Lora"), url("https://fonts.googleapis.com/css?family=Lora");
+}
+
 * {
-  color: rgb(23, 23, 23);
+  color: rgb(77, 77, 77);
   font-family: "Muli", sans-serif;
 }
 
@@ -48,7 +54,7 @@ body {
   font-weight: 800;
   text-transform: uppercase;
   text-decoration: none;
-  color: rgb(190, 0, 35);
+  color: rgb(211, 0, 0);
 }
 
 #to-the-top:hover {
@@ -75,7 +81,7 @@ body {
 
 #nav {
   background-color: rgb(99, 99, 99);
-  width: 60%;
+  width: 55%;
   list-style: none;
   display: flex;
   justify-content: space-around;
@@ -99,7 +105,7 @@ body {
   font-family: "Permanent Marker";
   font-weight: 300;
   font-size: 8rem;
-  color: rgb(190, 0, 35);
+  color: rgb(211, 0, 0);
   padding-top: 2rem;
   text-align: center;
 }
@@ -109,7 +115,7 @@ body {
   font-weight: 300;
   font-size: 8rem;
   margin: 5rem 0 0 0;
-  color: rgb(190, 0, 35);
+  color: rgb(211, 0, 0);
   text-align: center;
   text-decoration: none;
 }
@@ -138,12 +144,15 @@ body {
 }
 
 .about {
-  margin: 3.5rem 3rem 7rem 3rem;
-  padding-top: 1rem;
+  margin: 6rem 10%;
+  padding: 3rem 0rem;
 }
 
 #about-text {
-  margin: 3rem 0 2rem 0rem;
+  font-family: "Lora";
+  font-size: 1.4rem;
+  color: rgb(0, 0, 0);
+  margin: 0rem 3rem 2rem 3rem;
   text-transform: uppercase;
 }
 
@@ -152,7 +161,7 @@ body {
 }
 
 #theIronYard {
-  color: rgb(172, 0, 37);
+  color: rgb(211, 0, 0);
   font-weight: 800;
   text-decoration: none;
 }
@@ -166,9 +175,9 @@ body {
 #about-contact-button {
   font-size: 1rem;
   color: rgb(250, 250, 250);
-  background-color: rgb(172, 0, 37);
+  background-color: rgb(211, 0, 0);
   width: fit-content;
-  border: 0.1rem solid rgb(172, 0, 37);
+  border: 0.1rem solid rgb(211, 0, 0);
   border-radius: 0.5rem;
   margin-left: 10rem;
   padding: 0.2rem 0.5rem;
@@ -176,21 +185,22 @@ body {
 }
 
 #about-contact-button:hover {
-  color: rgb(172, 0, 37);
+  color: rgb(211, 0, 0);
   background-color: rgb(250, 250, 250);
   transition: 0.1s;
   -webkit-transition: 0.1s;
 }
 
 .portfolio {
-  background-color: rgb(245, 245, 245);
-  margin: 7rem 0;
+  margin: 6rem 10%;
   padding: 3rem 0rem;
 }
 
 #portfolio-text {
-  padding-bottom: 2rem;
-  margin: 0 3rem;
+  font-family: "Lora";
+  font-size: 1.4rem;
+  color: rgb(0, 0, 0);
+  margin: 0rem 3rem 2rem 3rem;
   text-transform: uppercase;
 }
 
@@ -202,11 +212,12 @@ body {
 }
 
 .passions-item {
+  color: rgb(0, 0, 0);
   padding: 0 1rem;
 }
 
 .passions-item:hover {
-  color: rgb(172, 0, 37);
+  color: rgb(211, 0, 0);
   transition: 0.1s;
   -webkit-transition: 0.1s;
 }
@@ -219,16 +230,15 @@ body {
   border-right: 0.1rem solid rgb(50, 50, 50);
 }
 
-#passion-items-fellowship {
-}
-
 .resume {
-  background-color: rgb(245, 245, 245);
-  margin: 7rem 0rem;
+  margin: 6rem 10%;
   padding: 3rem 0rem;
 }
 
 #resume-text {
+  font-family: "Lora";
+  font-size: 1.4rem;
+  color: rgb(0, 0, 0);
   margin: 0rem 3rem 2rem 3rem;
   text-transform: uppercase;
 }
@@ -242,9 +252,9 @@ body {
 }
 
 #resume-pdf-text {
-  background-color: rgb(172, 0, 37);
+  background-color: rgb(211, 0, 0);
   color: rgb(245, 245, 245);
-  border: 0.1rem solid rgb(172, 0, 37);
+  border: 0.1rem solid rgb(211, 0, 0);
   border-radius: 0.4rem;
   margin: 0 auto;
   padding: 0.5rem 1rem;
@@ -254,15 +264,17 @@ body {
 }
 
 #resume-pdf-text:hover {
-  color: rgb(172, 0, 37);
+  color: rgb(211, 0, 0);
   background-color: rgb(245, 245, 245);
   transition: 0.1s;
   -webkit-transition: 0.1s;
 }
 
 #resume-education-text {
-  color: rgb(172, 0, 37);
-  margin: 3rem 0rem;
+  font-family: "Lora";
+  font-size: 1.5rem;
+  color: rgb(0, 0, 0);
+  margin: 4rem 0rem;
   text-transform: uppercase;
   text-align: center;
 }
@@ -277,7 +289,7 @@ body {
 }
 
 .resume-education-list-name {
-  color: rgb(172, 0, 37);
+  color: rgb(211, 0, 0);
 }
 
 .resume-skills-group {
@@ -285,8 +297,10 @@ body {
 }
 
 #resume-skills-text {
-  color: rgb(172, 0, 37);
-  margin: 3rem 0rem;
+  font-family: "Lora";
+  font-size: 1.5rem;
+  color: rgb(0, 0, 0);
+  margin: 4rem 0rem;
   text-transform: uppercase;
   text-align: center;
 }
@@ -304,8 +318,10 @@ body {
 }
 
 #resume-work-text {
-  color: rgb(172, 0, 37);
-  margin: 3rem 0rem;
+  font-family: "Lora";
+  font-size: 1.5rem;
+  color: rgb(0, 0, 0);
+  margin: 4rem 0rem;
   text-transform: uppercase;
   text-align: center;
 }
@@ -320,7 +336,7 @@ body {
 }
 
 .resume-work-name {
-  color: rgb(172, 0, 37);
+  color: rgb(211, 0, 0);
 }
 
 .resume-work-text-list ul {
@@ -329,8 +345,10 @@ body {
 }
 
 #resume-volunteer-text {
-  color: rgb(172, 0, 37);
-  margin: 3rem 0rem;
+  font-family: "Lora";
+  font-size: 1.5rem;
+  color: rgb(0, 0, 0);
+  margin: 4rem 0rem;
   text-transform: uppercase;
   text-align: center;
 }
@@ -345,7 +363,7 @@ body {
 }
 
 .resume-volunteer-name {
-  color: rgb(172, 0, 37);
+  color: rgb(211, 0, 0);
 }
 
 .resume-volunteer-text-list ul {
@@ -369,12 +387,12 @@ body {
 }
 
 #contact-text {
-  color: rgb(172, 0, 37);
-  font-size: 1.5rem;
+  font-family: "Lora";
+  font-size: 1.8rem;
   color: rgb(250, 250, 250);
   width: fit-content;
   margin: 0 auto;
-  border-bottom: 0.1rem solid rgb(190, 0, 35);
+  border-bottom: 0.1rem solid rgb(211, 0, 0);
 }
 
 #contact-email {
@@ -426,6 +444,7 @@ body {
 }
 
 #instagram {
+  color: rgb(0, 0, 0);
   font-family: "Bahiana";
   text-transform: none;
   text-decoration: none;
