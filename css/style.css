@@ -82,7 +82,7 @@ body {
 
 #nav {
   background-color: rgb(99, 99, 99);
-  width: 55%;
+  width: 700px;
   list-style: none;
   display: flex;
   justify-content: space-around;
@@ -154,9 +154,7 @@ body {
 }
 
 .about {
-  margin: 6rem 10%;
   margin-top: 3rem;
-  padding: 3rem 0rem;
 }
 
 #about-text {
@@ -165,12 +163,13 @@ body {
   color: rgb(0, 0, 0);
   width: fit-content;
   margin: 0rem 3rem 2rem 3rem;
+  margin-left: 10%;
   border-bottom: 0.1rem solid rgb(211, 0, 0);
   text-transform: uppercase;
 }
 
 #about-introduce {
-  margin: 0rem 10rem 1rem 10rem;
+  margin: 1rem 20%;
 }
 
 #theIronYard {
@@ -192,7 +191,7 @@ body {
   width: fit-content;
   border: 0.1rem solid rgb(211, 0, 0);
   border-radius: 0.5rem;
-  margin-left: 10rem;
+  margin-left: 20%;
   padding: 0.2rem 0.5rem;
   text-decoration: none;
 }
@@ -218,7 +217,8 @@ body {
   font-size: 1.4rem;
   color: rgb(0, 0, 0);
   width: fit-content;
-  margin: 0rem 3rem 2rem 12rem;
+  margin: 0rem 3rem 2rem 0rem;
+  margin-left: 10%;
   border-bottom: 0.1rem solid rgb(211, 0, 0);
   text-transform: uppercase;
 }
@@ -342,13 +342,13 @@ body {
   font-size: 1.4rem;
   color: rgb(0, 0, 0);
   width: fit-content;
-  margin: 0rem 3rem 2rem 12rem;
+  margin: 0rem 3rem 2rem 0rem;
+  margin-left: 10%;
   border-bottom: 0.1rem solid rgb(211, 0, 0);
   text-transform: uppercase;
 }
 
 .resume-section {
-  margin: 0rem 13rem;
   margin-top: 5rem;
 }
 
@@ -386,6 +386,7 @@ body {
 
 .resume-education-list {
   display: flex;
+  margin: 0rem 20%;
   margin-bottom: 1rem;
 }
 
@@ -433,6 +434,7 @@ body {
 
 .resume-work-group {
   display: flex;
+  margin: 0 15%;
   margin-top: 2rem;
 }
 
@@ -460,6 +462,7 @@ body {
 
 .resume-volunteer-group {
   display: flex;
+  margin: 0rem 15%;
   margin-top: 2rem;
 }
 
@@ -562,21 +565,47 @@ body {
 }
 
 @media (min-width: 1500px) {
+  #about-introduce {
+    margin: 0rem 15rem 1rem 15rem;
+  }
+  #about-contact-button {
+    margin-left: 15rem;
+  }
+  .resume-section {
+    margin: 0rem 23rem;
+  }
 }
 
-@media (max-width: 800px) {
-  h1 {
-    font-size: 5rem;
-  }
+@media (max-width: 900px) {
+ #nav {
+  width: 100%;
+ }
+ #about-introduce {
+  margin: 1rem 10%;
+}
+ #about-contact-button {
+   margin: 0rem 10%;
+ }
+ .portfolio-description {
+  width: 95%;
+ }
+
+ .portfolio-live-code-div {
+   
+ }
+ .portflio-live {
+  margin-bottom: 1rem;
+ }
+ .img {
+   width: 100%;
+ }
 }
 
 @media (max-width: 550px) {
-  html {
+  #nav li a {
+    font-size: 1.5rem;
+  }
+  /* html {
     min-width: 280px;
-  }
-  h1 {
-    font-size: 3.5rem;
-    color: rgb(204, 0, 35);
-    margin-bottom: 0;
-  }
+  } */
 }
