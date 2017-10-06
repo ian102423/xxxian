@@ -643,6 +643,10 @@ body {
     width: fit-content;
     margin: auto;
   }
+  
+  .resume {
+    margin-bottom: 0;
+  }
 
   .resume-education-list {
     height: fit-content;
