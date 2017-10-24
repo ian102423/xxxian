@@ -592,6 +592,11 @@ body {
 }
 
 @media (max-width: 900px) {
+  #nav {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+  }
+
   .header {
     background-attachment: local;
   }
