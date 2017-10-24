@@ -592,6 +592,10 @@ body {
 }
 
 @media (max-width: 900px) {
+  .header {
+    background-attachment: local;
+  }
+
   .portfolio-description {
     width: 95%;
   }
@@ -605,6 +609,10 @@ body {
 
   .img {
     width: 100%;
+  }
+
+  .contact {
+    background-attachment: local;
   }
 
   #nav {
