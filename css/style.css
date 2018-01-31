@@ -252,7 +252,8 @@ body {
   background-attachment: fixed;
   position: relative;
   color: rgb(250, 250, 250);
-  margin: 7rem 0;
+  margin: 0;
+  margin-bottom: 7rem;
   padding: 150px;
   border-radius: 0.77rem;
 }
@@ -345,16 +346,16 @@ body {
 
 #about-text {
   font-family: "Lora";
-  font-size: 1.4rem;
+  font-size: 2rem;
   color: rgb(0, 0, 0);
   width: fit-content;
-  margin: 0 3rem 2rem 3rem;
-  margin-left: 10%;
-  border-bottom: 0.1rem solid rgb(211, 0, 0);
+  margin: auto;
+  border-bottom: 0.1rem dashed rgb(211, 0, 0);
   text-transform: uppercase;
 }
 
 #about-introduce {
+  font-size: 1.1rem;
   margin: 1rem 20%;
   margin-top: 3rem;
 }
@@ -383,7 +384,6 @@ body {
   width: fit-content;
   border: 0.1rem solid rgb(211, 0, 0);
   border-radius: 0.5rem;
-  margin-left: 20%;
   padding: 0.2rem 0.5rem;
   text-decoration: none;
 }
@@ -397,13 +397,18 @@ body {
 
 #portfolio-text {
   font-family: "Lora";
-  font-size: 1.4rem;
+  font-size: 2rem;
   color: rgb(0, 0, 0);
   width: fit-content;
-  margin: 0 3rem 2rem 0;
-  margin-left: 10%;
-  border-bottom: 0.1rem solid rgb(211, 0, 0);
+  margin: auto;
+  border-bottom: 0.1rem dashed rgb(211, 0, 0);
   text-transform: uppercase;
+}
+
+#portfolio-laptop {
+  background: url(../images/screen5.png) no-repeat 50px;
+  background-position: 3rem 1.15rem;
+  background-size: 235px;
 }
 
 #portfolio-laptop0 {
@@ -440,12 +445,11 @@ body {
 
 #resume-text {
   font-family: "Lora";
-  font-size: 1.4rem;
+  font-size: 2rem;
   color: rgb(0, 0, 0);
   width: fit-content;
-  margin: 0 3rem 2rem 0;
-  margin-left: 10%;
-  border-bottom: 0.1rem solid rgb(211, 0, 0);
+  margin: auto;
+  border-bottom: 0.1rem dashed rgb(211, 0, 0);
   text-transform: uppercase;
 }
 
@@ -474,7 +478,7 @@ body {
 
 #resume-education-text {
   font-family: "Lora";
-  font-size: 1.2rem;
+  font-size: 1.7rem;
   color: rgb(0, 0, 0);
   margin: 3rem 0;
   text-transform: uppercase;
@@ -483,7 +487,7 @@ body {
 
 #resume-skills-text {
   font-family: "Lora";
-  font-size: 1.2rem;
+  font-size: 1.7rem;
   color: rgb(0, 0, 0);
   margin: 3rem 0;
   text-transform: uppercase;
@@ -500,7 +504,7 @@ body {
 
 #resume-work-text {
   font-family: "Lora";
-  font-size: 1.2rem;
+  font-size: 1.7rem;
   color: rgb(0, 0, 0);
   margin: 3rem 0;
   text-transform: uppercase;
@@ -509,7 +513,7 @@ body {
 
 #resume-volunteer-text {
   font-family: "Lora";
-  font-size: 1.2rem;
+  font-size: 1.7rem;
   color: rgb(0, 0, 0);
   margin: 3rem 0;
   text-transform: uppercase;
@@ -518,7 +522,7 @@ body {
 
 #contact-text {
   font-family: "Lora";
-  font-size: 1.7rem;
+  font-size: 2rem;
   color: rgb(250, 250, 250);
   width: fit-content;
   margin: 0 auto;
@@ -588,9 +592,12 @@ body {
   }
 
   #about-introduce {
-    margin-right: 20rem;
-    margin-bottom: 1rem;
-    margin-left: 20rem;
+    margin: 1rem 28%;
+    margin-top: 3rem;
+  }
+
+  #about-contact-button {
+    margin: 1rem 30%;
   }
 }
 
