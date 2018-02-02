@@ -85,8 +85,6 @@ body {
   margin-top: -0.5rem;
   padding-top: 120px;
   padding-bottom: 150px;
-  border-bottom-left-radius: 0.77rem;
-  border-bottom-right-radius: 0.77rem;
   opacity: 0.77;
 }
 
@@ -96,7 +94,7 @@ body {
 
 .portfolio {
   text-align: center;
-  margin: 6rem 0;
+  margin: 0;
   margin-top: 9rem;
   padding: 3rem 0;
   background: url(../images/background78.jpg) repeat-y;
@@ -185,7 +183,7 @@ body {
 }
 
 .resume {
-  margin: 6rem 0;
+  margin: 0;
   padding: 3rem 0;
   background: url(../images/background78.jpg) repeat-y;
   background-size: 100%;
@@ -264,9 +262,7 @@ body {
   position: relative;
   color: rgb(250, 250, 250);
   margin: 0;
-  margin-bottom: 7rem;
-  padding: 150px;
-  border-radius: 0.77rem;
+  padding: 350px;
 }
 
 .contact-items {
@@ -671,11 +667,11 @@ body {
 
   .wrapper-logo {
     left: 7px;
-    top: 40px;
+    top: 50px;
   }
 
   .wrapper-logo img {
-    width: 50px;
+    width: 40px;
   }
 
   .portfolio-group {
