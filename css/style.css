@@ -95,7 +95,7 @@ body {
 .portfolio {
   text-align: center;
   margin: 0;
-  margin-top: 9rem;
+  margin-top: 5rem;
   padding: 3rem 0;
   background: url(../images/background78.jpg) repeat-y;
   background-size: 100%;
@@ -757,7 +757,7 @@ body {
 
   .contact {
     height: auto;
-    margin: 3rem 0;
+    margin: 0;
     padding: 5rem 0;
   }
 
