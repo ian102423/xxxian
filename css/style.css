@@ -47,6 +47,7 @@ body {
   position: fixed;
   right: 2rem;
   bottom: 1.5rem;
+  z-index: 1000;
 }
 
 .wrapper {
@@ -665,6 +666,15 @@ body {
 @media (max-width: 550px) {
   .wrapper {
     opacity: 1;
+  }
+
+  .wrapper-logo {
+    left: 7px;
+    top: 40px;
+  }
+
+  .wrapper-logo img {
+    width: 50px;
   }
 
   .portfolio-group {
