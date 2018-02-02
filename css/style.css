@@ -296,6 +296,7 @@ body {
   display: flex;
   justify-content: space-around;
   margin: auto;
+  margin-top: -1rem;
   padding: 0 0 0.5rem 0;
   border-radius: 0.3rem;
   -webkit-filter: blur(0.3px);
@@ -534,6 +535,9 @@ body {
   width: fit-content;
   margin: 0 auto;
   border-bottom: 0.1rem solid rgb(211, 0, 0);
+  text-align: center;
+  text-align: -moz-center;
+  text-align: -webkit-center;
 }
 
 #contact-email {
@@ -612,6 +616,7 @@ body {
   #nav {
     -webkit-filter: blur(0px);
     filter: blur(0px);
+    margin-top: -0.5rem;
   }
 
   .wrapper-logo {
@@ -645,6 +650,8 @@ body {
 
   .contact {
     background-attachment: local;
+    padding-right: 0;
+    padding-left: 0;
   }
 
   #nav {
@@ -763,6 +770,7 @@ body {
 
   #nav {
     width: 100%;
+    margin-top: -1rem;
   }
 
   #nav li a {
