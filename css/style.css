@@ -41,6 +41,7 @@ body {
   font-weight: 300;
   -webkit-filter: blur(0.3px);
   filter: blur(0.3px);
+  margin: 0;
 }
 
 .nav-to-top {
